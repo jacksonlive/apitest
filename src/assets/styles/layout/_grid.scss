@@ -1,0 +1,56 @@
+/* Kind of bootstrap inspired container-fluid and container */
+.container-fluid {
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 120rem;
+}
+
+// Two columns layout
+.main {
+    
+}
+
+.sidebar {
+    width: 30rem;
+}
+
+/* See documentation and examples here: */
+/* http://tachyons.io/docs/layout/flexbox/ */
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-start {
+    justify-content: start;
+}

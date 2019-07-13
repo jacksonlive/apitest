@@ -1,0 +1,54 @@
+body {
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: .1rem;
+    font-size: $default-font-size;
+    color: $default-font-color;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    font-weight: 800;
+    color: $primary-yellow;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 1rem 0;  
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.tl {
+    text-align: left;
+}
+
+.b {
+    font-weight: 800;
+}
+
+.i {
+    font-style: italic;
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+.red {
+    color: $primary-danger;
+}
