@@ -1,0 +1,63 @@
+.top-border-222 {
+    border-top: 3px solid $grey-222;
+}
+
+.logo {
+
+    width: 25rem;
+
+    &__img {
+
+    }
+
+    &__link {
+
+    }
+
+}
+
+.menu {
+    &__li {
+        margin-left: 2rem;
+    }
+}
+
+.user {
+    display: block;
+
+    &__icon {
+        display: block;
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: $primary-yellow; 
+    }
+}
+
+.submenu {
+
+    &__li {
+        margin-top: 1rem;
+        margin-right: 2rem;
+    }
+
+    &__link, &__link:link, &__link:visited {
+        text-decoration: none;
+        text-shadow: 2px 2px 2px $primary-black;
+        color: $primary-white;
+        padding: 0 1.5rem;
+        display: block;
+    }
+
+    &__link:hover, &__link:active {
+        color: $primary-yellow;
+    }
+
+    &__link-active, &__link-active:link, &__link-active:visited {
+        text-shadow: none;
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+        color: $primary-black;
+        background-color: $primary-white;
+    }
+
+}

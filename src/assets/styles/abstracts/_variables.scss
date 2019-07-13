@@ -1,10 +1,27 @@
 // Primary colors
 $primary-yellow:        #fdca01;
 $primary-black:         black;
+$primary-white:         white;
 $primary-danger:        orangered;
 $primary-warning:       orange;
 $primary-grey:          #333;
 $default-font-color:    #333;
+
+// List of greys
+$grey-111:              #111;
+$grey-222:              #222;
+$grey-333:              #333;
+$grey-444:              #444;
+$grey-555:              #555;
+$grey-666:              #666;
+$grey-777:              #777;
+$grey-888:              #888;
+$grey-999:              #999;
+$grey-aaa:              #aaa;
+$grey-bbb:              #bbb;
+$grey-ccc:              #ccc;
+$grey-ddd:              #ddd;
+$grey-eee:              #eee;
 
 // Default widths in rems
 // 1rem = 10px, 120rem = 1200px and so on...
@@ -14,3 +31,9 @@ $width-small:           48rem;
 
 // Default font sizes
 $default-font-size: 1.2rem;
+
+// Some default margins and padding spacing
+$space-1: .5rem;
+$space-2: 1rem;
+$space-3: 1.5rem;
+$space-4: 2rem;

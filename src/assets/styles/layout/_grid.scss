@@ -10,9 +10,10 @@
 
 // Two columns layout
 .main {
-    
+
 }
 
+// Left sidebar width = 300px;
 .sidebar {
     width: 30rem;
 }
@@ -52,5 +53,9 @@
 }
 
 .justify-start {
-    justify-content: start;
+    justify-content: flex-start;
+}
+
+.justify-end { 
+    justify-content: flex-end; 
 }

@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+// Images responsive by default
+// Be careful my friend...
+img {
+    width: 100%;
+    display: block;
+}
+
 ul, ol {
     list-style: none;
 }

@@ -1,0 +1,33 @@
+.search {
+
+    &__input {
+
+        padding: 1rem;
+        border-radius: 10rem;
+        border: 2px solid $grey-222;
+        font-family: inherit;
+        color: inherit;
+        width: 100%;
+        margin-right: -3rem;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__button {
+        border: 0;
+    
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__icon {
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        fill: $grey-333;
+    }
+
+}

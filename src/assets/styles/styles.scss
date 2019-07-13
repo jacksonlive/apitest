@@ -7,4 +7,12 @@
 @import 'base/helpers';
 
 // Layout
-@import 'layout/_grid';
+@import 'layout/grid';
+@import 'layout/header';
+
+// Components
+@import 'components/search';
+
+// Vendors
+@import 'vendors/margins';
+@import 'vendors/paddings';
